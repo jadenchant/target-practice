@@ -11,28 +11,53 @@ export default function Header() {
               <span>Minneapolis</span>
             </button>
           </div>
-          <div className='w-[700px] flex justify-between'>
-            <div className='flex items-center'>
+          <div className='w-[700px] hidden md:flex justify-between'>
+            <button className='flex items-center'>
               <span>Darnit Circle</span>
-            </div>
-            <div className='flex items-center'>
+            </button>
+            <button className='flex items-center'>
               <span>Darnit Circle Card</span>
-            </div>
-            <div className='flex items-center'>
+            </button>
+            <button className='flex items-center'>
               <span>Darnit Circle 360</span>
-            </div>
-            <div className='flex items-center'>
+            </button>
+            <button className='flex items-center'>
               <span>Registry</span>
-            </div>
-            <div className='flex items-center'>
+            </button>
+            <button className='flex items-center'>
               <span>Weekly Ad</span>
-            </div>
-            <div className='flex items-center'>
+            </button>
+            <button className='flex items-center'>
               <span>Find Stores</span>
-            </div>
+            </button>
           </div>
         </div>
-        <nav className='h-[125px] md:h-[80px]'></nav>
+        <nav className='h-[125px] md:h-[80px] flex justify-between p-4 border-b-2 shadow-md'>
+          <button className='flex items-center'>
+            <span>Logo</span>
+          </button>
+          <button className='flex items-center'>
+            <span>Categories</span>
+          </button>
+          <button className='flex items-center'>
+            <span>Deals</span>
+          </button>
+          <button className='flex items-center'>
+            <span>New & Featured</span>
+          </button>
+          <button className='flex items-center'>
+            <span>Pickup & Delivery</span>
+          </button>
+          <div>
+            <textarea></textarea>
+          </div>
+          <button className='flex items-center'>
+            <span>Sign In</span>
+          </button>
+          <button className='flex items-center'>
+            <span>Cart</span>
+          </button>
+        </nav>
       </header>
     );
   }
