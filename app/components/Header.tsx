@@ -49,7 +49,9 @@ export default function Header() {
             <span>Pickup & Delivery</span>
           </button>
           <div>
-            <textarea></textarea>
+            <form>
+              <input name='searchTerm' type='search'></input>
+            </form>
           </div>
           <button className='flex items-center'>
             <span>Sign In</span>
